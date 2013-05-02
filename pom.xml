@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.bonitasoft.web.tooling</groupId>
+	<artifactId>bonita-gwt-tools</artifactId>
+	<version>2.5.0</version>
+	<packaging>jar</packaging>
+
+	<name>GWT compilation tools</name>
+
+	<!-- version of project is the same as gwt version to ensure that we have the tools corresponding to the right gwt version -->
+	<dependencies>
+		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-dev</artifactId>
+			<version>${project.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+</project>

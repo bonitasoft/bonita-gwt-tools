@@ -14,11 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bonitasoft.tools.gwt;
+package org.bonitasoft.tools.gwt.jetty;
 
 import java.io.File;
 
-import org.bonitasoft.tools.gwt.jetty.JettyLauncher;
 import org.mortbay.jetty.Server;
 import org.mortbay.jetty.webapp.WebAppContext;
 import org.mortbay.xml.XmlConfiguration;
